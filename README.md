@@ -37,4 +37,5 @@ git config --global core.editor "vim"
 config --global user.email "llurio@niu.edu"
 config --global user.name "Larry Lurio"
 
-To see recent changes git log
+To see recent changes:      git log
+To just see what chaged:    git show --stat
