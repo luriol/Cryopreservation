@@ -5,6 +5,7 @@ This directory contains code for the cryopreservation project.
 
 ## File descriptions
 
+- **sine_transform_test.ibynb** This file executes the sine tranform using only odd harmonics on both a test data set and on real experimental data.  Seems to work 
 - **capacitor_time_domain.ipynb**  
   This file tests whether the time-domain signal from a capacitor can be reverse-transformed to recover the original complex impedance. In particular, it explores whether only the real part is needed.
 
@@ -65,3 +66,4 @@ This directory contains code for the cryopreservation project.
 
 - *(To see recent changes)*: `git log`  
 - *(To just see what changed)*: `git show --stat`
+- *(To update to githup)*: `git push`
