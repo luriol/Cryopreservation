@@ -11,6 +11,9 @@ This directory contains code for the cryopreservation project.
 - **C2.ipynb**  
   Solves the capacitor voltage divider equation in the presence of oscilloscope impedance and capacitance. Includes a markdown derivation for solving \( C \) and compares it with measured data from `Capacitance2.csv`. The fit suggests a capacitance around 25 pF.
 
+- **capacitor_model_sine_wave.ipynb**
+  This is an analysis of the frequency response for our capacitor when stimulated with a sine wave from the frequency generator and fit with the oscilloscope.  There are markdown sections which give the derivations.  Rather than trying to solve for C, this uses C as a fitting parameter and fits the shape of the curve.  We get good agreement with the fit for the empty capacitor cell which gives a capacitance of 38 pF using fixed probe capacitance of 8 pF and 10 M Ohm (from the probe itself, not varied).  This analysis supports the observation that there is an issue with the Pasco 550 impedence
+
 - **Capacitor_analysis_2.ipynb**
 
 - **documented_fit_to_capacitance.ipynb**
@@ -36,8 +39,6 @@ This directory contains code for the cryopreservation project.
 
 - **samanah_gantt_chart.ipynb**
 
-- **capacitor_model_sine_wave.ipynb**
-
 - **samaneh_data.ipynb**
 
 - **capacitor_model_sine_wave_with_scope_impedence.ipynb**
@@ -57,6 +58,7 @@ This directory contains code for the cryopreservation project.
 
 - `git add .`
 - `git commit -m "Initial commit with notebooks and supporting scripts"`
+- `git commit -m "Summarize main change" -m "Added dielectric recovery and signal prep"`
 - `git config --global core.editor "vim"`
 - `git config --global user.email "llurio@niu.edu"`
 - `git config --global user.name "Larry Lurio"`

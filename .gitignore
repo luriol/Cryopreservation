@@ -3,3 +3,8 @@ __pychache__/
 *.pyc
 *.log
 *.tmp
+*.pdf
+*.html
+*.csv
+*.cap
+Arduino
